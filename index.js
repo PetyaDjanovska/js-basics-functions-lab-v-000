@@ -1,5 +1,5 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(input) {
-  distance = 42 - input;
+  distance = Math.abs(42 - input);
   return distance;
 }
