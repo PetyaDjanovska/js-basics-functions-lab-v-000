@@ -17,8 +17,8 @@ function distanceTravelledInFeet(start, end) {
 function calculatesFarePrice(start, end) {
   let distance = distanceTravelledInFeet(start, end)
   if (distance <= 400) {
-    return "It is free."
-  } else {
-
+    return 0
+  } else if (distance > 400 && distance <= 2000){
+    
   }
 }
