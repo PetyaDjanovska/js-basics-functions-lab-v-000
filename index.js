@@ -3,3 +3,7 @@ function distanceFromHqInBlocks(input) {
   distance = Math.abs(42 - input);
   return distance;
 }
+
+function distanceFromHqInFeet() {
+  
+}
