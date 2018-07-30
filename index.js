@@ -8,3 +8,7 @@ function distanceFromHqInFeet(input) {
   let blocks = distanceFromHqInBlocks(input);
   return blocks * 264;
 }
+
+function distanceTravelledInFeet() {
+  
+}
